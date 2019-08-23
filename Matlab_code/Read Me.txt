@@ -1,0 +1,19 @@
+Read Me
+
+The main program for random forest:
+Random_Forest.m    % Using new data after shuffled
+Random_Forest_filter.m  %Using SOC = 80-100
+
+The main program for RNN:
+RNN_main.m
+RNN_filtered.m
+
+Other file:
+filter_data.m  %function for filter the data when given a range [start, end]
+optimal_n_RFregression.m   %used to find the optimal value of ntree
+random_forest_regression.m   % run the RF model
+shuffle.m  % function to shuffle the given data
+test_train_split.m  % split training set and testing set given test proportion
+
+
+If you have any questions, please let me know
